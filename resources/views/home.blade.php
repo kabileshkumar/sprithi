@@ -7,6 +7,7 @@
 
         {{-- LEFT: copy --}}
         <div class="hero-copy">
+            <div class="hero-badge"><i class="bi bi-lightning-charge-fill"></i> Quick Commerce · Puducherry</div>
             
             <h1>Your neighbourhood stores, <em>delivered fast.</em></h1>
 
@@ -40,36 +41,36 @@
 
         {{-- RIGHT: image stage --}}
         <div class="stage">
+            <div class="stage-box">
+                {{-- Background blob --}}
+                <div class="hero-blob"></div>
 
-            {{-- Background blob --}}
-            <div class="hero-blob"></div>
+                {{-- Main photo card --}}
+                <div class="hero-img-wrap">
+                    <img src="{{ asset('images/hero-photo.jpg') }}" alt="Sprithi — fresh local groceries delivered fast">
+                    {{-- Overlay gradient fade at bottom --}}
+                    <div class="hero-img-fade"></div>
+                </div>
 
-            {{-- Main photo card --}}
-            <div class="hero-img-wrap">
-                <img src="{{ asset('images/hero-photo.jpg') }}" alt="Sprithi — fresh local groceries delivered fast">
-                {{-- Overlay gradient fade at bottom --}}
-                <div class="hero-img-fade"></div>
-            </div>
+                {{-- Floating cards snugly positioned around the photo --}}
+                <div class="tag a"><i class="bi bi-bicycle"></i>Out for delivery</div>
+                <div class="tag b">
+                    <div class="tag-inner">
+                        <i class="bi bi-clock-fill"></i>
+                        <div><strong>30 min</strong><small>avg delivery</small></div>
+                    </div>
+                </div>
+                <div class="tag c"><i class="bi bi-shop"></i>Shop local</div>
 
-            {{-- Floating cards --}}
-            <div class="tag a"><i class="bi bi-bicycle"></i>Out for delivery</div>
-            <div class="tag b">
-                <div class="tag-inner">
-                    <i class="bi bi-clock-fill"></i>
-                    <div><strong>30 min</strong><small>avg delivery</small></div>
+                {{-- Order notification pop --}}
+                <div class="hero-notif">
+                    <div class="notif-ico"><i class="bi bi-bag-check-fill"></i></div>
+                    <div>
+                        <strong>New order placed!</strong>
+                        <small>Fresh vegetables · ₹320</small>
+                    </div>
                 </div>
             </div>
-            <div class="tag c"><i class="bi bi-shop"></i>Shop local</div>
-
-            {{-- Order notification pop --}}
-            <div class="hero-notif">
-                <div class="notif-ico"><i class="bi bi-bag-check-fill"></i></div>
-                <div>
-                    <strong>New order placed!</strong>
-                    <small>Fresh vegetables · ₹320</small>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
