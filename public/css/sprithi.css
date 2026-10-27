@@ -280,6 +280,9 @@ h2{font-size:clamp(1.8rem,3.4vw,2.7rem);margin-bottom:14px;font-weight:800;lette
   .hero{
     padding:100px 0 40px;
   }
+  .hero-copy{
+    padding-left:0;
+  }
   .hero-grid{grid-template-columns:1fr;gap:40px}
   .stage-box{width:290px}
   .hero-img-wrap{height:360px}
